@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# ☣☢☠☭☮☯⚛⛾
 ## Uncomment to disable git info
 #POWERLINE_GIT=0
 
@@ -13,14 +13,14 @@ __powerline() {
 
     # Symbols
     SYMBOL_GIT_BRANCH=${SYMBOL_GIT_BRANCH:-⑂}
-    SYMBOL_GIT_MODIFIED=${SYMBOL_GIT_MODIFIED:-*}
+    SYMBOL_GIT_MODIFIED=${SYMBOL_GIT_MODIFIED:-☢}
     SYMBOL_GIT_PUSH=${SYMBOL_GIT_PUSH:-↑}
     SYMBOL_GIT_PULL=${SYMBOL_GIT_PULL:-↓}
 
     if [[ -z "$PS_SYMBOL" ]]; then
       case "$(uname)" in
           Darwin)   PS_SYMBOL='';;
-          Linux)    PS_SYMBOL='$';;
+          Linux)    PS_SYMBOL='⛾';;
           *)        PS_SYMBOL='%';;
       esac
     fi
@@ -91,3 +91,4 @@ __powerline() {
 
 __powerline
 unset __powerline
+
